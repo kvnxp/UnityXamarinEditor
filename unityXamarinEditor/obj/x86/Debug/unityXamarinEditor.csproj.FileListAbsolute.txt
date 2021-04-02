@@ -1,12 +1,5 @@
 C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\bin\Debug\unityXamarinEditor.exe
 C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\bin\Debug\unityXamarinEditor.pdb
-C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\bin\Debug\mscorlib.dll
-C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\bin\Debug\es\mscorlib.resources.dll
-C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\bin\Debug\normidna.nlp
-C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\bin\Debug\normnfc.nlp
-C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\bin\Debug\normnfd.nlp
-C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\bin\Debug\normnfkc.nlp
-C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\bin\Debug\normnfkd.nlp
 C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\obj\x86\Debug\unityXamarinEditor.csprojResolveAssemblyReference.cache
 C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\obj\x86\Debug\unityXamarinEditor.exe
 C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\obj\x86\Debug\unityXamarinEditor.pdb

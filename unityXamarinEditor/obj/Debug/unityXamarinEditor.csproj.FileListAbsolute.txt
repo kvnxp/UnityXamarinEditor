@@ -1,0 +1,4 @@
+C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\obj\Debug\unityXamarinEditor.csprojResolveAssemblyReference.cache
+C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\obj\Debug\unityXamarinEditor.exe
+C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\obj\Debug\unityXamarinEditor.pdb
+C:\unityXamarinEditor.exe
