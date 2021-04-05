@@ -38,13 +38,16 @@ namespace args
 				if (pro.Length == 0)
 				{
 					string arguments = fullcommand[2] + " " + fullcommand[3].Replace("-1", "0");
+					Console.WriteLine("opening "+ arguments);
 					runprocess(finfo.Directory + "/" + appname ,arguments);
 				}
 				else
 				{
 					Regex reg = new Regex(".+cs");
 					Match command = reg.Match(fullcommand[3]);
-					runprocess(finfo.Directory + "/" + appname ,command.Value);
+					Console.WriteLine("opening "+ fullcommand[3].Replace("-1", "0"));
+					
+					runprocess(finfo.Directory + "/" + appname ,fullcommand[3].Replace("-1", "0"));
 				}
 				//Console.ReadKey();
 				Application.Run(new wait_view());
@@ -59,7 +62,6 @@ namespace args
 			info.UseShellExecute = true;
 			Process ps = new Process();
 			ps.StartInfo = info;
-			ps.OutputDataReceived += delegate(object sender, DataReceivedEventArgs e) { Console.WriteLine(e.Data); };
 			ps.Start();
 			
 		}
@@ -70,10 +72,10 @@ namespace args
 			string file1 = "Assembly-CSharp.csproj";
 			string file2 = "Assembly-CSharp-Editor.csproj";
 			
-			Console.WriteLine(folderpath);
+//			Console.WriteLine(folderpath);
 			if (File.Exists(folderpath+"/"+file1)){
 				
-				Console.WriteLine("change " + file1);
+//				Console.WriteLine("change " + file1);
 			    	string file = File.ReadAllText(folderpath+"/"+file1).Replace("<TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>",
 			                                                     "<TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>");
 			    	File.WriteAllText(folderpath+"/"+file1,file);
