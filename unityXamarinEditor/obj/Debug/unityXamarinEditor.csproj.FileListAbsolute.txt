@@ -2,3 +2,7 @@ C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\obj\Debug\unity
 C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\obj\Debug\unityXamarinEditor.exe
 C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\obj\Debug\unityXamarinEditor.pdb
 C:\unityXamarinEditor.exe
+C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\bin\Debug\unityXamarinEditor.exe
+C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\bin\Debug\unityXamarinEditor.pdb
+C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\obj\Debug\unityXamarinEditor.csproj.GenerateResource.Cache
+C:\Home\Documents\Projects\unityXamarinEditor\unityXamarinEditor\obj\Debug\wait_view.resources
