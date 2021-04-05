@@ -70,19 +70,20 @@ namespace args
 			string file1 = "Assembly-CSharp.csproj";
 			string file2 = "Assembly-CSharp-Editor.csproj";
 			
-			
+			Console.WriteLine(folderpath);
 			if (File.Exists(folderpath+"/"+file1)){
 				
-			    	string f1 = File.ReadAllText(folderpath+"/"+file1).Replace("<TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>",
+				Console.WriteLine("change " + file1);
+			    	string file = File.ReadAllText(folderpath+"/"+file1).Replace("<TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>",
 			                                                     "<TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>");
-			    	File.WriteAllText(folderpath+"/"+file1,f1);
+			    	File.WriteAllText(folderpath+"/"+file1,file);
 			    
 			    }
 			if (File.Exists(folderpath+"/"+file2)){
 			    
-			    string f1 = File.ReadAllText(folderpath+"/"+file2).Replace("<TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>",
+			    string file = File.ReadAllText(folderpath+"/"+file2).Replace("<TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>",
 			                                                     "<TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>");
-			    	File.WriteAllText(folderpath+"/"+file1,f1);
+			    	File.WriteAllText(folderpath+"/"+file2,file);
 			    }
 				
 		}
