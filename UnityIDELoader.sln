@@ -1,7 +1,8 @@
-
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unityXamarinEditor", "unityXamarinEditor\unityXamarinEditor.csproj", "{2D1E4B6C-7DC6-43F2-A7EF-4AE6916C30B2}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityIDELoader", "unityXamarinEditor\UnityIDELoader.csproj", "{2D1E4B6C-7DC6-43F2-A7EF-4AE6916C30B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
